@@ -16,5 +16,53 @@
 
     <h1>Let's Connect:</h1>
     <h2>Unleash The Possibilities </h2>
+    <body>
+
+
+
+        <div class="container">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Full Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="fullname" placeholder="Full Name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="Email">Email</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Your Em@il..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Message</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="Tell me" placeholder="Tell me something good:)" style="height:200px"></textarea>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <button type="button" onclick="myFunction()">Summit!</button>
+
+            <p id="demo1"></p>
+            
+            <script>
+            function myFunction() {
+              document.getElementById("demo1").innerHTML = "Summited";
+            }
+          </div>
+          </form>
+        </div>
+        
+        </body>
 </body>
 </html>
